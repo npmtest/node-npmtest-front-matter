@@ -1,1 +1,40 @@
-{     "devDependencies": {         "front-matter": "*",         "electron-lite": "kaizhu256/node-electron-lite#alpha",         "utility2": "kaizhu256/node-utility2#alpha"     },     "name":"npmtest-front-matter",     "homepage": "https://github.com/npmtest/node-npmtest-front-matter",     "repository": {         "type": "git",         "url": "https://github.com/npmtest/node-npmtest-front-matter.git"     },     "scripts": {         "build-ci": "utility2 shReadmeTest build_ci.sh"     },     "version": "0.0.1" }
+{
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "description": "test coverage for [front-matter (v2.1.2)](https://github.com/jxson/front-matter) [![npm package](https://img.shields.io/npm/v/npmtest-front-matter.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-front-matter) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-front-matter.svg)](https://travis-ci.org/npmtest/node-npmtest-front-matter)",
+    "devDependencies": {
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "front-matter": "*",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmtest/node-npmtest-front-matter",
+    "keywords": [
+        "coverage",
+        "test",
+        "front-matter"
+    ],
+    "license": "MIT",
+    "main": "lib.npmtest_front_matter.js",
+    "name": "npmtest-front-matter",
+    "nameAlias": "npmtest_front_matter",
+    "nameOriginal": "npmtest-front-matter",
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmtest/node-npmtest-front-matter.git"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+    },
+    "version": "0.0.1"
+}

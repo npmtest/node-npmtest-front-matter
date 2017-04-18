@@ -1,7 +1,10 @@
-# test coverage for  [front-matter (v2.1.2)](https://github.com/jxson/front-matter)  [![npm package](https://img.shields.io/npm/v/npmtest-front-matter.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-front-matter) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-front-matter.svg)](https://travis-ci.org/npmtest/node-npmtest-front-matter)
+# npmtest-front-matter
+
+#### test coverage for  [front-matter (v2.1.2)](https://github.com/jxson/front-matter)  [![npm package](https://img.shields.io/npm/v/npmtest-front-matter.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-front-matter) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-front-matter.svg)](https://travis-ci.org/npmtest/node-npmtest-front-matter)
+
 #### Extract YAML front matter from a string
 
-[![NPM](https://nodei.co/npm/front-matter.png?downloads=true)](https://www.npmjs.com/package/front-matter)
+[![NPM](https://nodei.co/npm/front-matter.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/front-matter)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-front-matter/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-front-matter/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-front-matter/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-front-matter/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-front-matter/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-front-matter/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-front-matter/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-front-matter/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-front-matter/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-front-matter/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-front-matter%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-front-matter/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-front-matter/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-front-matter/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-front-matter/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-front-matter%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-front-matter/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-front-matter/build/test-report.html](https://npmtest.github.io/node-npmtest-front-matter/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-front-matter/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-front-matter/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-front-matter/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-front-matter/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-front-matter/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-front-matter/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-front-matter/build/screenCapture.npmPackageListing.svg)
 
@@ -28,7 +37,6 @@
 {
     "author": {
         "name": "Jason Campbell",
-        "email": "jason@js.la",
         "url": "http://twitter.com/jxson"
     },
     "bugs": {
@@ -37,32 +45,26 @@
     "contributors": [
         {
             "name": "Jason Campbell",
-            "email": "jason@js.la",
             "url": "http://twitter.com/jxson"
         },
         {
             "name": "Jordan Santell",
-            "email": "jsantell@gmail.com",
             "url": "https://github.com/jsantell"
         },
         {
             "name": "Kai Davenport",
-            "email": "kaiyadavenport@gmail.com",
             "url": "https://github.com/binocarlos"
         },
         {
             "name": "Jean-Philippe Monette",
-            "email": "contact@jpmonette.net",
             "url": "https://github.com/jpmonette"
         },
         {
             "name": "Marc-André Arseneault",
-            "email": "marc-andre@arsnl.ca",
             "url": "https://github.com/arsnl"
         },
         {
             "name": "Bret Comnes",
-            "email": "bcomnes@gmail.com",
             "url": "http://bret.io"
         }
     ],
@@ -95,13 +97,11 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "jxson",
-            "email": "jason@greatergood.cc"
+            "name": "jxson"
         }
     ],
     "name": "front-matter",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/jxson/front-matter.git"
